@@ -1,36 +1,22 @@
-// alert("Oi! Eu sou o Alert");
-// document.write("Estou na página.");
-// console.log("Eu estou no console.");
-let tabuada = 5;
-function alo(){
+MIT License
 
-     let tabuada =
-    document.write("<h1>Tabuada do " + tabuada + "</h1>");
-    document.write(tabuada + " x 1 = " + (tabuada*1)+"<br>");
-    document.write(tabuada + " x 2 = " + (tabuada*2)+"<br>");
-    document.write(tabuada + " x 3 = " + (tabuada*3)+"<br>");
-    document.write(tabuada + " x 4 = " + (tabuada*4)+"<br>");
-    document.write(tabuada + " x 5 = " + (tabuada*5)+"<br>");
-    document.write(tabuada + " x 6 = " + (tabuada*6)+"<br>");
-    document.write(tabuada + " x 7 = " + (tabuada*7)+"<br>");
-    document.write(tabuada + " x 8 = " + (tabuada*8)+"<br>");
-    document.write(tabuada + " x 9 = " + (tabuada*9)+"<br>");
-    document.write(tabuada + " x 10 = " + (tabuada*10));
-}
-// for(inicio, validaçao, manutençao)
-function escreva(){
-    for(var i=1; i <= 10; i++){
-        for(var j = 1; j <=10; j++){
-            document.write(i + " x " + j + " = " + (j*i)+"<br>");
-        }
-        document.write("<br>");
-    }
-}
+Copyright (c) 2022 Adryan
 
-function quadrado(){
-    for(var i = 2; i < 11; i++){
-        document.write("O quadrado de " + i + " é " + (i*i)+"<br>");
-    }
-}
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
